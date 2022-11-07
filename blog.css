@@ -1,0 +1,47 @@
+body {
+    font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px;
+}
+
+header {
+    font-family: 'Roboto Slab', "Palatino Linotype", Georgia, serif;
+    font-size: 40px;
+    width: 100%;
+    background-color: #000000;
+    line-height: 1;
+    text-decoration: none;
+    color: #fefffe;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0;
+    vertical-align: baseline;
+    padding: 10px;
+}
+
+.nav-bar {
+    position: absolute;
+    /* width: 150px; */
+    background-color: #efefef;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    height: 100%;
+}
+
+.nav-bar-section {
+    padding: 10px;
+}
+
+.nav-bar-content {
+    display: block;
+}
+
+.post {
+    margin-left: 210px;
+    display: flex;
+    flex-direction: column;
+}
