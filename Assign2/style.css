@@ -1,0 +1,185 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Josiah Humber 
+ * email: humberj@oregonstate.edu
+ */
+
+body {
+    font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px;
+}
+
+header {
+    font-family: 'Roboto Slab', "Palatino Linotype", Georgia, serif;
+    font-size: 40px;
+    width: 100%;
+    background-color: #000000;
+    line-height: 1;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #fefffe;
+}
+
+.site-title {
+    font-weight: 500;
+    display: inline-block;
+    margin: 0;
+    vertical-align: baseline;
+    height: 90px;
+    padding: 10px;
+}
+
+.header-image-container {
+    display: inline-block;
+    margin: 0;
+    height: 150px;
+    vertical-align: bottom;
+}
+
+.filter-container {
+    position: absolute;
+    width: 200px;
+    background-color: #efefef;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.filter-container h2 {
+    margin: 0px;
+}
+
+.filter-input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-input {
+    /* object-fit: contain; */
+    max-width: 150px;
+    /* min-width: 140px; */
+    /* flex-direction: row; */
+}
+
+#filter-max-price, #filter-min-price {
+    max-width: 65px;
+}
+
+ #filter-city {
+    min-width: 160px;
+} 
+
+#filter-condition {
+    min-width: 172px;
+    border-width: 2px;
+    border-color: #bcbcbc;
+    border-radius: 1px;
+    border-style: solid;
+}
+
+#filter-update-button {
+    font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #fefffe;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#filter-update-button:hover {
+    background-color: #f3d0b5;
+    color: #000000;
+    cursor: pointer;
+}
+
+#posts {
+    margin-left: 260px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* margin-left: 15px; */
+    border-width: 2px;
+    border-color: #bcbcbc;
+    border-radius: 3px;
+    border-style: solid;
+    padding: 10px;
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+/* .post > a, .post > span {
+    display: inline-flex;
+} */
+
+.post-image-container img{
+    width: 300px;
+    max-height: 240px;
+    object-fit: contain;
+    object-position: top;
+    margin-bottom: 20px;
+}
+
+.post-title{
+    color: #f67811;
+}
+
+.post-title:hover{
+    color: #f67811;
+    text-decoration: underline;
+}
+
+.post-price {
+    background-color: #efefef;
+    padding: 2px;
+    border-width: 2px;
+    border-color: #bcbcbc;
+    border-radius: 3px;
+    border-style: solid;
+    font-size: 12px;
+    margin: 5px;
+}
+
+#sell-something-button {
+    font-family: monospace;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #f67811;
+    color: #ffffff;
+    border: none;
+    border-radius: 100%;
+    /* padding: 8px; */
+    font-size: 40px;
+    height: 66px;
+    width: 66px;
+    line-height: 1;
+    /* letter-spacing: 0px; */
+    box-shadow: 5px 5px 10px 0px #cecece;
+    /* transition: all 0.2 ease-in; */
+}
+
+#sell-something-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
