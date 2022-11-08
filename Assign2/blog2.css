@@ -20,6 +20,11 @@ header {
     padding: 10px;
 }
 
+header a {
+    text-decoration: none;
+    color: #fefffe;
+}
+
 .nav-bar {
     position: absolute;
     /* width: 150px; */
